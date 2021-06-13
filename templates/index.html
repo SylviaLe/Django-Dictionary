@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>English Dictionary</title>
+    </head>
+    <body>
+        <div class="container w-75">
+            <div class="search justify-content-center align-items-center d-flex flex-column min-vh-100">
+                <form action="word"> 
+                    <!-- send the form data to word. must have name attrs -->
+                    <input type="text" name="search" class="searchTerm p-1" placeholder="Input Your Word Here">
+                    <button type="submit" class="btn btn-dark btn-sm p-2 searchButton ">
+                        <i class="fa fa-search fa-xs"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    </body>
+</html>
